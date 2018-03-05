@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xsi:schemaLocation="http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <mongo:mongo-client
+		host="7e4a2390-970a-462b-8353-425ce2c63303-bluemix.cloudant.com" port="443"
+		credentials="https://7e4a2390-970a-462b-8353-425ce2c63303-bluemix:34b4792ccaae63af92736121f8f09cf569af05a7bb315f3fb36a5855b396513f@7e4a2390-970a-462b-8353-425ce2c63303">
+
+		<mongo:client-options connections-per-host="8"
+			threads-allowed-to-block-for-connection-multiplier="4"
+			connect-timeout="1000" max-wait-time="1500" socket-keep-alive="false"
+			socket-timeout="1500" />
+	</mongo:mongo-client>
+	
+	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+		<constructor-arg ref="mongo" />
+		<constructor-arg name="databaseName"
+			value="7e4a2390-970a-462b-8353-425ce2c63303" />
+	</bean> -->
+</beans>
